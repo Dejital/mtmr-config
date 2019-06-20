@@ -1,0 +1,58 @@
+[
+  {
+    "type": "exitTouchbar",
+    "align": "left",
+    "width": 48
+  },
+  {
+    "type": "brightnessDown",
+    "width": 80,
+    "align": "left"
+  },
+  {
+    "type": "brightnessUp",
+    "width": 80,
+    "align": "left"
+  },
+  {
+    "type": "dock",
+    "autoResize": true
+  },
+  {
+    "type": "mute",
+    "bordered": false,
+    "align": "right",
+    "width": 50
+  },
+  {
+    "type": "volumeDown",
+    "bordered": false,
+    "align": "right",
+    "width": 50
+  },
+  {
+    "type": "volumeUp",
+    "bordered": false,
+    "align": "right",
+    "width": 50
+  },
+  {
+    "type": "darkMode",
+    "width": 40,
+    "align": "right",
+    "bordered": false
+  },
+  {
+    "type": "displaySleep",
+    "width": 40,
+    "align": "right",
+    "bordered": false
+  },
+  {
+    "type": "pomodoro",
+    "bordered": false,
+    "align": "right",
+    "workTime": 1500, // set time work in seconds. Default 1500 (25 min)
+    "restTime": 300 // set time rest in seconds. Default 300 (5 min)
+  }
+]
